@@ -19,9 +19,9 @@
 
      Anaconda is the leading open data science platform powered by Python. The open source version of Anaconda is a high performance distribution and includes over 100 of the most popular Python packages for data science. Additionally, it provides access to over 720 Python and R packages that can easily be installed using the conda dependency and environment manager, which is included in Anaconda.
   </Description>
-  <Registry>https://hub.docker.com/r/continuumio/anaconda3/</Registry>
-  <GitHub>https://github.com/ContinuumIO/docker-images</GitHub>
-  <Repository>continuumio/anaconda3/</Repository>
+  <Registry>https://hub.docker.com/r/damianolombardo/unraid-anaconda3-jupyter/</Registry>
+  <GitHub>https://github.com/damianolombardo/unraid-anaconda3-jupyter</GitHub>
+  <Repository>damianolombardo/unraid-anaconda3-jupyter/</Repository>
   <Support></Support>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
