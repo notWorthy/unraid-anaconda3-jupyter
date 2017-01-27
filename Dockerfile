@@ -36,5 +36,5 @@ RUN /opt/conda/bin/jupyter notebook --generate-config
 
 ENTRYPOINT [ "/usr/bin/tini", "--" ]
 
-CMD ["/bin/bash", "-c", "\"/opt/conda/bin/jupyter notebook --ip='*' --no-browser --notebook-dir=/opt/notebooks --port=8888\""]
+CMD ["/bin/bash", "-c", "\"/opt/conda/bin/jupyter notebook --ip='*' --no-browser --notebook-dir=/opt/notebooks --port=9999\""]
 #CMD [ "/opt/conda/bin/jupyter", "notebook", "--ip='*'", "--no-browser", "--notebook-dir=/opt/notebooks", "--port=8888"]
