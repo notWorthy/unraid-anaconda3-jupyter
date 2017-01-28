@@ -3,7 +3,7 @@
   <Date>2016-09-04</Date>
   <Beta>True</Beta>
   <Category>Tools:Other</Category>
-  <Name>unraid-anaconda3-ipython</Name>
+  <Name>unraid-anaconda3-jupyter</Name>
   <Project>https://www.continuum.io/anaconda-overview</Project>
   <Changes>
 [font size=3]2016.09.04[/font]
