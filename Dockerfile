@@ -33,6 +33,7 @@ ENV JUPYTER_CONFIG_DIR="/opt/jupyterprofile"
 
 RUN /opt/conda/bin/conda install jupyter -y --quiet
 RUN /opt/conda/bin/jupyter notebook --generate-config
+RUN mkdir /opt/notebooks
 
 ENTRYPOINT [ "/usr/bin/tini", "--" ]
 
