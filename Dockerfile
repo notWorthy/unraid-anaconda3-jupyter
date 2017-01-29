@@ -33,9 +33,8 @@ ENV JUPYTER_CONFIG_DIR="/opt/jupyterprofile"
 
 RUN /opt/conda/bin/conda install jupyter -y --quiet
 RUN /opt/conda/bin/jupyter notebook --generate-config
-RUN mkdir /opt/notebooks
 
 ENTRYPOINT [ "/usr/bin/tini", "--" ]
 
-CMD ["/bin/bash", "-c", "\"/opt/conda/bin/jupyter notebook --ip='*' --no-browser --notebook-dir=/opt/notebooks --port=9999\""]
-#CMD [ "/opt/conda/bin/jupyter", "notebook", "--ip='*'", "--no-browser", "--notebook-dir=/opt/notebooks", "--port=8888"]
+# CMD ["/bin/bash", "-c", "\"/opt/conda/bin/jupyter notebook --ip='*' --no-browser --notebook-dir=/opt/notebooks --port=9999\""]
+CMD ["/bin/bash", "-c", "\"/opt/conda/bin/jupyter notebook --ip='*' --no-browser --port=9999\""]
