@@ -21,7 +21,7 @@
   </Description>
   <Registry>https://hub.docker.com/r/damianolombardo/unraid-anaconda3-jupyter/</Registry>
   <GitHub>https://github.com/damianolombardo/unraid-anaconda3-jupyter</GitHub>
-  <Repository>damianolombardo/unraid-anaconda3-jupyter/</Repository>
+  <Repository>damianolombardo/unraid-anaconda3-jupyter</Repository>
   <Support></Support>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
