@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Date>2016-09-04</Date>
+  <Date>2018-04-22</Date>
   <Beta>True</Beta>
   <Category>Tools:Other</Category>
   <Name>unraid-anaconda3-jupyter</Name>
@@ -8,6 +8,8 @@
   <Changes>
 [font size=3]2016.09.04[/font]
 - Initial Release
+[font size=3]2018.03.22[/font]
+- Updated
   </Changes>
   <Overview>
     Anaconda is an easy-to-install free package manager, environment manager, Python distribution, and collection of over 720 open source packages offering free community support.
@@ -38,7 +40,7 @@
   <Environment/>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/anaconda3</HostDir>
+      <HostDir>/mnt/user/Projects/Jupyter</HostDir>
       <ContainerDir>/opt/jupyterprofile</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
