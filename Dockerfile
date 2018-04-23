@@ -36,5 +36,5 @@ RUN /opt/conda/bin/jupyter notebook --generate-config
 
 ENTRYPOINT [ "/usr/bin/tini", "--" ]
 
-CMD ["/opt/conda/bin/jupyter", "notebook", ,"--allow-root", "--ip='0.0.0.0'", "--no-browser", "--notebook-dir=/opt/notebooks", "--port=9999"]
+CMD ["/opt/conda/bin/jupyter", "notebook", "--allow-root", "--ip='*'", "--no-browser", "--notebook-dir=/opt/notebooks", "--port=9999"]
 
