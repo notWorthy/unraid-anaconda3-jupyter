@@ -27,7 +27,7 @@
 # CMD [ "/bin/bash" ]
 ### My Added Code
 FROM continuumio/anaconda3
-MAINTAINER Damiano Lombardo
+MAINTAINER Not Worthy
 
 ENV JUPYTER_CONFIG_DIR="/opt/jupyterprofile"
 
